@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hyouzi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/reizoukokounyuu"
+            android:layout_width="159dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical|center_horizontal|top|fill"
+            android:text="　記入　　　　「購入」" />
+
+        <Button
+            android:id="@+id/reizoukosyouhi"
+            android:layout_width="147dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_weight="0.08"
+            android:gravity="center_vertical|center_horizontal|clip_horizontal|top|fill"
+            android:text="　記入　　　　　「消費」" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reizoukonaiyourann"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_weight="0.70"
+        android:gravity="center_vertical|center_horizontal|fill|top"
+        android:text="　　　　　　　内容欄" />
+
+</LinearLayout>
