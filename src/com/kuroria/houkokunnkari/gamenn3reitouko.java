@@ -1,4 +1,4 @@
-package com.example.houkokunnkari;
+package com.kuroria.houkokunnkari;
 
 public class gamenn3reitouko {
 

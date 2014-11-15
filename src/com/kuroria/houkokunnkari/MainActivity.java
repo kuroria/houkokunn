@@ -1,4 +1,4 @@
-package com.example.houkokunnkari;
+package com.kuroria.houkokunnkari;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 	public void reitouko(View v) {
 		Intent intent = new Intent();
 		intent.setAction(Intent.ACTION_MAIN);
-		intent.setClass(MainActivity.this, gamenn3.class);
+		intent.setClass(MainActivity.this, gamenn3reitouko.class);
 		startActivity(intent);
 
 	}
